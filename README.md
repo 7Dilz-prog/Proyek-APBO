@@ -1,15 +1,19 @@
-KELOMPOK 10:
+# Tugas Wawancara & Analisis Masalah Dari Perusahaan/Organisasi
+
+### Dosen Pengampu : Adi Wahyu Pribadi, S.Si., M.Kom
+
+#### KELOMPOK 10:
 * Delsyad Iza-4524210025
 * Fatimah-4524210039
 * Farhan Ridwan Badhawi-4524210037
 * Alfin Romi Setiawan-4524210009
 * Anggun Setiawati Dewi-4523210019
 
-Tema: 
+#### TEMA: 
 Topik: Sistem Informasi Laundry
 Narasumber: Laundry Cahaya - Ibu Fira (Owner)
 
-Problem dari hasil wawancara:
+#### PROBLEM DARI HASIL WAWANCARA:
 * Baju yang sudah selesai di laundry tidak diambil segera oleh Pemiliknya yang membuat tempat Laundry penuh;
 * Pemilik baju sering mengira bajunya tertinggal di laundry padahal tidak;
 * Baju yang tidak diberitahu kalo bahannya gampang luntur;
@@ -22,5 +26,5 @@ Problem dari hasil wawancara:
   - Pemesanan laundry
   - Dsb
 
-Link youtube
+#### LINK YOUTUBE : 
 https://youtu.be/4HeoocR1znk?si=NDgBW-qX23UdZzRE 
