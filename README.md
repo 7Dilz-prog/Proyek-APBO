@@ -10,8 +10,8 @@
 * Anggun Setiawati Dewi-4523210019
 
 #### TEMA: 
-Topik: Sistem Informasi Laundry
-Narasumber: Laundry Cahaya - Ibu Fira (Owner)
+* Topik: Sistem Informasi Laundry
+* Narasumber: Laundry Cahaya - Ibu Fira (Owner)
 
 #### PROBLEM DARI HASIL WAWANCARA:
 * Baju yang sudah selesai di laundry tidak diambil segera oleh Pemiliknya yang membuat tempat Laundry penuh;
