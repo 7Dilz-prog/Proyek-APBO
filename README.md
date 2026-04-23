@@ -11,7 +11,16 @@
 
 #### TEMA: 
 * Topik: Sistem Informasi Laundry
-* Narasumber: Laundry Cahaya - Ibu Fira (Owner)
+* Cari Informasi: 
+  - Sasaran Topik Dimana: Laundry Cahaya - Ibu Fira (Owner)
+  - Literasi Bacaan: 
+    1. Ibu disini posisi nya sebagai apa? 
+    2. Sehari biasanya ada berapa customer dan staff yang menangani ada berapa?
+    3. Kendala yang biasa dialami di laundry? 
+    4. Kira - kira sistem pembayaran di sini bisa menggunakan qris apa hanya cash?
+    5. Bagaimana caranya pihak laudry memberitahu kepada customer bahwa pakaian nya sudah siap di ambil?
+  - Siapkan Pertanyaan: 
+  - Alur bisnisnya dari laundry: 
 
 #### PROBLEM DARI HASIL WAWANCARA:
 * Baju yang sudah selesai di laundry tidak diambil segera oleh Pemiliknya yang membuat tempat Laundry penuh;
