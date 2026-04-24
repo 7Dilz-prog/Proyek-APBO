@@ -8,10 +8,23 @@
 * Farhan Ridwan Badhawi-4524210037
 * Alfin Romi Setiawan-4524210009
 * Anggun Setiawati Dewi-4523210019
+ 
+#### Topik: Sistem Informasi Laundry
+#### Cari Informasi: 
+  - Sasaran Topik Dimana: Laundry Cahaya - Ibu Fira (Owner)
+  - Literasi Bacaan: 
+    
+  - Pertanyaan: 
+    1. Ibu disini posisi nya sebagai apa? 
+    2. Sehari biasanya ada berapa customer dan staff yang menangani ada berapa?
+    3. Kendala yang biasa dialami di laundry? 
+    4. Kira - kira sistem pembayaran di sini bisa menggunakan qris apa hanya cash?
+    5. Bagaimana caranya pihak laudry memberitahu kepada customer bahwa pakaian nya sudah siap di ambil?
+  - Alur bisnisnya dari laundry:
 
-#### TEMA: 
-* Topik: Sistem Informasi Laundry
-* Narasumber: Laundry Cahaya - Ibu Fira (Owner)
+  - Dokumentasi Wawancara
+    https://youtu.be/4HeoocR1znk?si=NDgBW-qX23UdZzRE 
+
 
 #### PROBLEM DARI HASIL WAWANCARA:
 * Baju yang sudah selesai di laundry tidak diambil segera oleh Pemiliknya yang membuat tempat Laundry penuh;
@@ -26,5 +39,4 @@
   - Pemesanan laundry
   - Dsb
 
-#### LINK YOUTUBE : 
-https://youtu.be/4HeoocR1znk?si=NDgBW-qX23UdZzRE 
+ 
