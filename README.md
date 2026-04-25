@@ -26,22 +26,42 @@
     https://youtu.be/4HeoocR1znk?si=NDgBW-qX23UdZzRE
 
 #### Aktor dalam Sistem
-  - Pelanggan (Customer)
+  👤 Pelanggan (Customer)
+
     1. Mengisi Identitas diri
-    2. Melakukan pemesanan dan memilih jenis layanan cucian
-    3. Memantau status cucian
+    2. Melakukan pemesanan dan memilih jenis layanan Laundry
+    3. Memantau status Laundry
     4. Melakukan pembayaran melalui payment cash, payment gateaway atau via transfer
-    5. Menaruh dan mengambil cucian yang di laundry
+    5. Menaruh dan mengambil cucian yang di Laundry
+    6. Menerima Notifikasi Laundry Selesai
    
-  - Admin (Pengelola Aplikasi)
-    1. Memasukkan Pesanan Pelanggan ke daftar antrian
-    2. Mengelola data dan sistem aplikasi seperti memberi diskon
-    3. Mencetak nota dan memvalidasi pembayaran
+  🧑‍💼 Admin (Pengelola Aplikasi)
+
+    1. Mengelola Data Pelanggan
+    2. Mengelola data Pesanan Laundry 
+    3. Mengelola Status Laundry
+    4. Mengelola antrian Laundry
+    5. Mengelola Pembayaran 
+    6. Mencetak nota dan memvalidasi pembayaran
+    7. Mengirim notifikasi ke Pelanggan
    
-  - Pemilik (Owner)
+  👑 Pemilik (Owner)
+
     1. Melihat total pendapatan harian, mingguan, atau bulanan.
     2. Memantau sisa bahan baku
     3. Mengatur hak akses aplikasi
+    4. Mengatur Dsikon / Promosi
+
+
+
+
+
+
+
+
+
+   ![Diagram Use Case](Dokumentasi-Wawancara/Diagram-UseCase.jpg)
+
 
 
 #### PROBLEM DARI HASIL WAWANCARA:
@@ -56,5 +76,8 @@
   - Informasi laundry sudah selesai
   - Pemesanan laundry
   - Dsb
+
+  
+
 
  
