@@ -22,8 +22,8 @@
     5. Bagaimana caranya pihak laudry memberitahu kepada customer bahwa pakaian nya sudah siap di ambil?
        
   - Alur bisnisnya dari laundry:
+    #### Alur Bisnis dalam Sistem Informasi Laundry
       #### Alur Bisnis dalam Sistem Informasi Laundry
-
     Kegiatan bisnis Sistem Informasi Laundry dibuat untuk membuat proses transaksi laundry lebih sistematis dan efektif,         serta mengurangi miskomunikasi antara pemesan dengan pihak laundry.
 
 1. Pemesan Melakukan Order
