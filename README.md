@@ -20,41 +20,11 @@
     3. Kendala yang biasa dialami di laundry? 
     4. Kira - kira sistem pembayaran di sini bisa menggunakan qris apa hanya cash?
     5. Bagaimana caranya pihak laudry memberitahu kepada customer bahwa pakaian nya sudah siap di ambil?
+       
   - Alur bisnisnya dari laundry:
+    #### Alur Bisnis dalam Sistem Informasi Laundry
 
-  - Dokumentasi Wawancara
-    https://youtu.be/4HeoocR1znk?si=NDgBW-qX23UdZzRE
-
-#### Aktor dalam Sistem
-  👤 Pelanggan (Customer)
-
-    1. Mengisi Identitas diri
-    2. Melakukan pemesanan dan memilih jenis layanan Laundry
-    3. Memantau status Laundry
-    4. Melakukan pembayaran melalui payment cash, payment gateaway atau via transfer
-    5. Menaruh dan mengambil cucian yang di Laundry
-    6. Menerima Notifikasi Laundry Selesai
-   
-  🧑‍💼 Admin (Pengelola Aplikasi)
-
-    1. Mengelola Data Pelanggan
-    2. Mengelola data Pesanan Laundry 
-    3. Mengelola Status Laundry
-    4. Mengelola antrian Laundry
-    5. Mengelola Pembayaran 
-    6. Mencetak nota dan memvalidasi pembayaran
-    7. Mengirim notifikasi ke Pelanggan
-   
-  👑 Pemilik (Owner)
-
-    1. Melihat total pendapatan harian, mingguan, atau bulanan.
-    2. Memantau sisa bahan baku
-    3. Mengatur hak akses aplikasi
-    4. Mengatur Dsikon / Promosi
-
-#### Alur Bisnis dalam Sistem Informasi Laundry
-
-Kegiatan bisnis Sistem Informasi Laundry dibuat untuk membuat proses transaksi laundry lebih sistematis dan efektif, serta mengurangi miskomunikasi antara pemesan dengan pihak laundry.
+    Kegiatan bisnis Sistem Informasi Laundry dibuat untuk membuat proses transaksi laundry lebih sistematis dan efektif,         serta mengurangi miskomunikasi antara pemesan dengan pihak laundry.
 
 1. Pemesan Melakukan Order
    
@@ -193,6 +163,38 @@ Kegiatan bisnis Sistem Informasi Laundry dibuat untuk membuat proses transaksi l
     * Menjalankan promo
     * Menjalankan diskon
     * Membantu mengontrol karyawan/admin
+
+  - Dokumentasi Wawancara
+    https://youtu.be/4HeoocR1znk?si=NDgBW-qX23UdZzRE
+
+#### Aktor dalam Sistem
+  👤 Pelanggan (Customer)
+
+    1. Mengisi Identitas diri
+    2. Melakukan pemesanan dan memilih jenis layanan Laundry
+    3. Memantau status Laundry
+    4. Melakukan pembayaran melalui payment cash, payment gateaway atau via transfer
+    5. Menaruh dan mengambil cucian yang di Laundry
+    6. Menerima Notifikasi Laundry Selesai
+   
+  🧑‍💼 Admin (Pengelola Aplikasi)
+
+    1. Mengelola Data Pelanggan
+    2. Mengelola data Pesanan Laundry 
+    3. Mengelola Status Laundry
+    4. Mengelola antrian Laundry
+    5. Mengelola Pembayaran 
+    6. Mencetak nota dan memvalidasi pembayaran
+    7. Mengirim notifikasi ke Pelanggan
+   
+  👑 Pemilik (Owner)
+
+    1. Melihat total pendapatan harian, mingguan, atau bulanan.
+    2. Memantau sisa bahan baku
+    3. Mengatur hak akses aplikasi
+    4. Mengatur Dsikon / Promosi
+
+
 
 
 
