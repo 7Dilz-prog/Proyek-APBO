@@ -11,8 +11,7 @@
  
 #### Topik: Sistem Informasi Laundry
 #### Cari Informasi: 
-  - Sasaran Topik Dimana: Laundry Cahaya - Ibu Fira (Owner)
-  - Literasi Bacaan: 
+  - Sasaran Topik: Laundry Cahaya - Ibu Fira (Owner) 
     
   - Pertanyaan: 
     1. Ibu disini posisi nya sebagai apa? 
