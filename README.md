@@ -189,7 +189,7 @@
     1. Melihat total pendapatan harian, mingguan, atau bulanan.
     2. Memantau sisa bahan baku
     3. Mengatur hak akses aplikasi
-    4. Mengatur Dsikon / Promosi
+    4. Mengatur Diskon / Promosi
 
 
 
