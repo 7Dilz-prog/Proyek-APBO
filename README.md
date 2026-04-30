@@ -1,30 +1,30 @@
 # Tugas Wawancara & Analisis Masalah Dari Perusahaan/Organisasi
 
-### Dosen Pengampu : Adi Wahyu Pribadi, S.Si., M.Kom
+#### Dosen Pengampu : Adi Wahyu Pribadi, S.Si., M.Kom
 
-#### KELOMPOK 10:
+### KELOMPOK 10:
 * Delsyad Iza-4524210025
 * Fatimah-4524210039
 * Farhan Ridwan Badhawi-4524210037
 * Alfin Romi Setiawan-4524210009
 * Anggun Setiawati Dewi-4523210019
  
-#### Topik: Sistem Informasi Laundry
-#### Cari Informasi: 
+### Topik: Sistem Informasi Laundry
+### Cari Informasi: 
   - Sasaran Topik: Laundry Cahaya - Ibu Fira (Owner) 
     
-  - Pertanyaan: 
+  - #### Pertanyaan: 
     1. Ibu disini posisi nya sebagai apa? 
     2. Sehari biasanya ada berapa customer dan staff yang menangani ada berapa?
     3. Kendala yang biasa dialami di laundry? 
     4. Kira - kira sistem pembayaran di sini bisa menggunakan qris apa hanya cash?
     5. Bagaimana caranya pihak laudry memberitahu kepada customer bahwa pakaian nya sudah siap di ambil?
        
-  - Alur bisnis:
-    #### Alur Bisnis dalam Sistem Informasi Laundry
+  - ##### Alur bisnis:
+    **Alur Bisnis dalam Sistem Informasi Laundry**
     Kegiatan bisnis Sistem Informasi Laundry dibuat untuk membuat proses transaksi laundry lebih sistematis dan efektif, serta mengurangi miskomunikasi antara pemesan dengan pihak laundry.
 
-1. Pemesan Melakukan Order
+1. **Pemesan Melakukan Order**
    
    Transaksi dimulai dengan adanya pemesan langsung melakukan order di tempat laundry atau memesan dengan cara berkomunikasi secara online menggunakan media sosial seperti WhatsApp. Di sini, pemesan memberikan barang yang ingin dilaundry.
 
@@ -36,7 +36,7 @@
 
    Pada saat ini, terkadang timbul miskomunikasi apabila pemesan tidak menjelaskan kondisi istimewa pakaian, seperti bahan pakaian mudah luntur atau lain-lain.
 
-2. Input Identitas dan Data Pesanan
+2. **Input Identitas dan Data Pesanan**
    
    Setelah pemesan menyerahkan cucian, admin atau pegawai laundry akan mencatat identitas pemesan seperti:
    * Nama pemesan.
@@ -52,7 +52,7 @@
 
    Proses input data di Laundry Cahaya hingga saat ini masih menggunakan pencatatan manual dengan menggunakan buku catatan atau nota kertas.
 
-3. Harga Laundry
+3. **Harga Laundry**
    
    Untuk mendapatkan total harga laundry berdasarkan berbagai faktor di antaranya:
 
@@ -69,7 +69,7 @@
 
    Dengan cara manual, perhitungan tersebut bisa saja tidak tepat.
 
-4. Pembayaran
+4. **Pembayaran**
    
    Dengan mengetahui total biaya, pelanggan membayar tagihan tersebut dengan berbagai cara misalnya dengan:
 
@@ -77,9 +77,10 @@
    * Bank transfer.
    * QRIS (jika ada).
 
-   Pelanggan boleh melakukan pembayaran di awal sebelum mencuci, maupun saat pengambilan barang. Setelah melakukan pembayaran, admin mengonfirmasi bahwa transaksi telah selesai dan menerbitkan kwitansi.
+   Pelanggan boleh melakukan pembayaran di awal sebelum mencuci, maupun saat pengambilan barang. Setelah melakukan
+   pembayaran, admin mengonfirmasi bahwa transaksi telah selesai dan menerbitkan kwitansi.
 
-5. Pesanan Memasuki Daftar Antrian Pekerjaan Laundry
+6. **Pesanan Memasuki Daftar Antrian Pekerjaan Laundry**
    
    Setelah semua proses transaksi selesai, cucian masuk daftar antrian.
    Daftar antrian tersebut dibedakan berdasarkan:
@@ -87,7 +88,7 @@
    * Daftar antrian pesanan laundry regular.
    * Daftar antrian pesanan laundry prior.
 
-6. Proses Pengerjaan Laundry
+7. **Proses Pengerjaan Laundry**
    
    Dalam proses ini, pihak laundry melakukan pengerjaan pakaian konsumen berdasarkan antrian yang ada.
    Proses pengerjaannya meliputi:
@@ -114,7 +115,7 @@
 
    Permasalahan yang sering muncul pada proses ini meliputi: pertukaran baju, rusaknya baju, serta baju mudah luntur namun tidak diberitahu pelanggan.
 
-7. Update Status Laundry
+8. **Update Status Laundry**
    
    Admin dapat melakukan update pada status dari pemesanan tersebut seperti:
 
@@ -125,7 +126,7 @@
 
    Fitur ini berguna untuk membantu konsumen monitoring pesanan.
 
-8. Pengiriman Notifikasi ke Pelanggan
+9. **Pengiriman Notifikasi ke Pelanggan**
    
    Apabila cucian telah selesai, sistem atau admin dapat mengirim notifikasi pesan kepada konsumen melalui:
 
@@ -135,11 +136,11 @@
 
    Notifikasi ini mengandung pesan bahwa baju telah selesai dicuci dan siap diambil. Tujuannya adalah untuk mencegah permasalahan penumpukan baju laundry.
 
-9. Pengambilan Baju oleh Pelanggan
+10. **Pengambilan Baju oleh Pelanggan**
     
    Konsumen mengambil baju yang telah dicuci berdasarkan notifikasi tadi. Pelanggan menunjukkan bukti pembelian agar admin dapat melakukan pengecekan data pesanan. Jika sebelumnya pembayaran belum dilakukan, pelanggan wajib membayar lunas saat pengambilan. Beberapa permasalahan yang sering muncul.
 
-10. Simpan Data Transaksi dan Buat Laporan
+11. **Simpan Data Transaksi dan Buat Laporan**
     
     Setelah terjadi transaksi, data transaksi tersebut akan disimpan di sistem.
     Beberapa contoh laporan yang dapat dibuat dengan data tersebut adalah:
@@ -150,7 +151,7 @@
     * Laporan pelanggan aktif.
     * Laporan pemasukan.
 
-11. Pemantauan Oleh Owner
+12. **Pemantauan Oleh Owner**
     
     Owner dapat memantau semua kegiatan bisnis melalui sistem yaitu:
 
