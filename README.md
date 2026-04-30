@@ -20,7 +20,7 @@
     4. Kira - kira sistem pembayaran di sini bisa menggunakan qris apa hanya cash?
     5. Bagaimana caranya pihak laudry memberitahu kepada customer bahwa pakaian nya sudah siap di ambil?
        
-  - Alur bisnisnya dari laundry:
+  - Alur bisnis:
     #### Alur Bisnis dalam Sistem Informasi Laundry
     Kegiatan bisnis Sistem Informasi Laundry dibuat untuk membuat proses transaksi laundry lebih sistematis dan efektif, serta mengurangi miskomunikasi antara pemesan dengan pihak laundry.
 
@@ -39,14 +39,12 @@
 2. Input Identitas dan Data Pesanan
    
    Setelah pemesan menyerahkan cucian, admin atau pegawai laundry akan mencatat identitas pemesan seperti:
-
    * Nama pemesan.
    * Nomor telepon.
    * Alamat.
    * Waktu penyerahan laundry.
 
    Data pesanan yang dicatat oleh pihak laundry juga termasuk:
-
    * Berat cucian (kg)/jumlah cucian.
    * Jenis layanan yang dipesan.
    * Lama estimasi waktu pengiriman.
@@ -168,34 +166,29 @@
 #### Aktor dalam Sistem
   👤 Pelanggan (Customer)
 
-    1. Mengisi identitas diri.
-    2. Melakukan pemesanan dan memilih jenis layanan laundry.
-    3. Memantau status laundry.
-    4. Melakukan pembayaran melalui payment cash, payment gateaway atau via transfer.
-    5. Menaruh dan mengambil cucian yang di laundry.
-    6. Menerima notifikasi laundry Selesai.
+    1. Mengisi Identitas diri
+    2. Melakukan pemesanan dan memilih jenis layanan Laundry
+    3. Memantau status Laundry
+    4. Melakukan pembayaran melalui payment cash, payment gateaway atau via transfer
+    5. Menaruh dan mengambil cucian yang di Laundry
+    6. Menerima Notifikasi Laundry Selesai
    
   🧑‍💼 Admin (Pengelola Aplikasi)
 
-    1. Mengelola data pelanggan.
-    2. Mengelola data pesanan laundry.
-    3. Mengelola status laundry.
-    4. Mengelola antrian laundry.
-    5. Mengelola pembayaran.
-    6. Mencetak nota dan memvalidasi pembayaran.
-    7. Mengirim notifikasi ke pelanggan.
+    1. Mengelola Data Pelanggan
+    2. Mengelola data Pesanan Laundry 
+    3. Mengelola Status Laundry
+    4. Mengelola antrian Laundry
+    5. Mengelola Pembayaran 
+    6. Mencetak nota dan memvalidasi pembayaran
+    7. Mengirim notifikasi ke Pelanggan
    
   👑 Pemilik (Owner)
 
     1. Melihat total pendapatan harian, mingguan, atau bulanan.
-    2. Memantau sisa bahan baku.
-    3. Mengatur hak akses aplikasi.
-    4. Mengatur diskon/promosi.
-
-
-
-
-
+    2. Memantau sisa bahan baku
+    3. Mengatur hak akses aplikasi
+    4. Mengatur Dsikon / Promosi
 
 
 
