@@ -9,18 +9,18 @@
 * Alfin Romi Setiawan-4524210009
 * Anggun Setiawati Dewi-4523210019
  
-### Topik: Sistem Informasi Laundry
-### Cari Informasi: 
-  - Sasaran Topik: Laundry Cahaya - Ibu Fira (Owner) 
+### TOPIK: Sistem Informasi Laundry
+### INFORMASI: 
+  - #### SASARAN TOPIK: Laundry Cahaya - Ibu Fira (Owner) 
     
-  - #### Pertanyaan: 
+  - #### PERTANYAAN: 
     1. Ibu disini posisi nya sebagai apa? 
     2. Sehari biasanya ada berapa customer dan staff yang menangani ada berapa?
     3. Kendala yang biasa dialami di laundry? 
     4. Kira - kira sistem pembayaran di sini bisa menggunakan qris apa hanya cash?
     5. Bagaimana caranya pihak laudry memberitahu kepada customer bahwa pakaian nya sudah siap di ambil?
        
-  - ##### Alur bisnis:
+  - #### ALUR BISNIS:
     **Alur Bisnis dalam Sistem Informasi Laundry**
     Kegiatan bisnis Sistem Informasi Laundry dibuat untuk membuat proses transaksi laundry lebih sistematis dan efektif, serta mengurangi miskomunikasi antara pemesan dengan pihak laundry.
 
@@ -164,7 +164,7 @@
   - Dokumentasi Wawancara
     https://youtu.be/4HeoocR1znk?si=NDgBW-qX23UdZzRE
 
-#### Aktor dalam Sistem
+#### AKTOR DALAM SISTEM
   👤 Pelanggan (Customer)
 
     1. Mengisi Identitas diri
@@ -198,7 +198,7 @@
 
 
 
-#### PROBLEM DARI HASIL WAWANCARA:
+#### PROBLEM DARI HASIL WAWANCARA
 * Baju yang sudah selesai di laundry tidak diambil segera oleh pemiliknya yang membuat tempat Laundry penuh.
 * Pemilik baju sering mengira bajunya tertinggal di laundry padahal tidak.
 * Baju yang tidak diberitahu kalo bahannya gampang luntur.
@@ -211,7 +211,7 @@
   - Pemesanan laundry.
   - Dsb
   
-#### Daftar Pustaka
+#### DAFTAR PUSTAKA
 * Mulyadi, B., Jaroji, & Tedyyana, A. (2019). Aplikasi Sistem Pemesanan Jasa Laundry (E-Laundry) Berbasis Android. ZONAsi: Jurnal Sistem Informasi, 1(1), 48-56.
 * Rosyida, S., & Riyanto, V. (2019). Sistem Informasi Pengelolaan Data Laundry pada Rumah Laundry Bekasi. JITK (Jurnal Ilmu Pengetahuan dan Teknologi Komputer), 5(1), 29-36.
 * Simargolang, M. Y., & Nasution, N. (2018). Aplikasi Pelayanan Jasa Laundry Berbasis WEB (Studi Kasus: Pelangi Laundry Kisaran). Jurnal Teknologi Informasi, 2(1), 46-51.
