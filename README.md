@@ -163,6 +163,8 @@
 
   - Dokumentasi Wawancara
     https://youtu.be/4HeoocR1znk?si=NDgBW-qX23UdZzRE
+  - PPT Presentasi
+    https://canva.link/75tgi1r5b2dw2rf
 
 #### AKTOR DALAM SISTEM
   👤 Pelanggan (Customer)
@@ -210,8 +212,18 @@
   - Informasi laundry sudah selesai.
   - Pemesanan laundry.
   - Dsb
-  
-#### DAFTAR PUSTAKA
+
+#### SOLUSI UNTUK PERMASALAHAN:
+* Notifikasi otomatis saat laundry selesai
+* Sistem tracking status cucian (proses–selesai–ambil)
+* ID/QR code untuk setiap pesanan
+* Pencatatan kondisi pakaian saat diterima
+* Database pelanggan dan transaksi otomatis
+* Laporan penjualan harian/bulanan
+* Sistem terpusat agar tidak terjadi miskomunikasi
+* Berpindah ke sistem informasi laundry terpusat untuk seluruh proses operasional
+
+#### Daftar Pustaka
 * Mulyadi, B., Jaroji, & Tedyyana, A. (2019). Aplikasi Sistem Pemesanan Jasa Laundry (E-Laundry) Berbasis Android. ZONAsi: Jurnal Sistem Informasi, 1(1), 48-56.
 * Rosyida, S., & Riyanto, V. (2019). Sistem Informasi Pengelolaan Data Laundry pada Rumah Laundry Bekasi. JITK (Jurnal Ilmu Pengetahuan dan Teknologi Komputer), 5(1), 29-36.
 * Simargolang, M. Y., & Nasution, N. (2018). Aplikasi Pelayanan Jasa Laundry Berbasis WEB (Studi Kasus: Pelangi Laundry Kisaran). Jurnal Teknologi Informasi, 2(1), 46-51.
