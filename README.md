@@ -193,15 +193,12 @@
     3. Mengatur hak akses aplikasi
     4. Mengatur Diskon / Promosi
 
- Class Diagram:
- <img width="365" height="430" alt="image" src="https://github.com/user-attachments/assets/a61d41d2-a411-4adb-a1d0-ad57abbfe51f" />
-
-
-
-
+#### Diagram
+* **Usecase Diagram:**
    ![Diagram Use Case](Dokumentasi-Wawancara/Diagram-UseCase.jpg)
 
-
+* **Class Diagram:**
+ <img width="365" height="430" alt="image" src="https://github.com/user-attachments/assets/a61d41d2-a411-4adb-a1d0-ad57abbfe51f" />
 
 #### PROBLEM DARI HASIL WAWANCARA
 * Baju yang sudah selesai di laundry tidak diambil segera oleh pemiliknya yang membuat tempat Laundry penuh.
