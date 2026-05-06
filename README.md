@@ -194,7 +194,8 @@
     4. Mengatur Diskon / Promosi
 
  Class Diagram:
- <img width="716" height="918" alt="Class Diagram APBO drawio" src="https://github.com/user-attachments/assets/2fc4710e-9958-43ce-a039-49f1d93fc654" />
+ <img width="365" height="430" alt="image" src="https://github.com/user-attachments/assets/a61d41d2-a411-4adb-a1d0-ad57abbfe51f" />
+
 
 
 
