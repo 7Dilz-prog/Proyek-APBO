@@ -44,7 +44,8 @@
     3. Mengatur hak akses aplikasi
 
  Class Diagram:
- <img width="716" height="918" alt="Class Diagram APBO drawio" src="https://github.com/user-attachments/assets/2fc4710e-9958-43ce-a039-49f1d93fc654" />
+ <img width="365" height="430" alt="image" src="https://github.com/user-attachments/assets/a61d41d2-a411-4adb-a1d0-ad57abbfe51f" />
+
 
 #### PROBLEM DARI HASIL WAWANCARA:
 * Baju yang sudah selesai di laundry tidak diambil segera oleh Pemiliknya yang membuat tempat Laundry penuh;
