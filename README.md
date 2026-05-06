@@ -193,6 +193,8 @@
     3. Mengatur hak akses aplikasi
     4. Mengatur Diskon / Promosi
 
+ Class Diagram:
+ <img width="716" height="918" alt="Class Diagram APBO drawio" src="https://github.com/user-attachments/assets/2fc4710e-9958-43ce-a039-49f1d93fc654" />
 
 
 
