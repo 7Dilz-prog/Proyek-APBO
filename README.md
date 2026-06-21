@@ -206,8 +206,30 @@
 
 * **Squence Diagram:**
     <img width="700" height="450" src="Dokumentasi-Wawancara/squence_diagram.jpg">
+    #### 🔄 Penjelasan Alur Per Fase:
+* **PHASE 1: Registrasi & Input Pesanan**
+    * **Pelanggan** datang membawa cucian dan memilih jenis layanan.
+    * **Admin** memicu fungsi `inputPesanan()` pada sistem untuk mencatat identitas, berat/qty, dan catatan kondisi pakaian (misal: pakaian mudah luntur).
+    * Sistem melalui kelas **Admin** melakukan cek tarif ke objek **Layanan** untuk mengambil data `harga_per_unit`.
+    * Objek **Pesanan** mengeksekusi fungsi `hitungTotal()` dan mengembalikan kalkulasi total harga ke **Admin** untuk diinfokan ke pelanggan.
 
-    
+* **PHASE 2: Proses Pembayaran (Contoh: Bayar di Awal)**
+    * **Pelanggan** membayar sesuai tagihan (via Cash/QRIS/Transfer).
+    * **Admin** melakukan `validasiPembayaran()` di dalam sistem.
+    * Sistem mengubah parameter `status_bayar` pada objek **Pembayaran** menjadi Lunas (`L`) dan mengeksekusi fungsi `cetakKwitansi()`.
+    * **Admin** menyerahkan nota/kwitansi fisik kepada **Pelanggan**.
+
+* **PHASE 3: Proses Laundry & Update Status**
+    * Pakaian masuk ke antrian operasional pengerjaan (*Sorting* -> Cuci -> Setrika -> Packing).
+    * Secara berkala, **Admin** melakukan pembaruan data internal sistem melalui fungsi *self-message* `updateStatus()`, mulai dari `"Sedang Dicuci"`, `"Sedang Setrika"`, hingga `"Selesai"`.
+
+* **PHASE 4: Notifikasi & Pengambilan**
+    * Ketika status pesanan berubah menjadi `"Selesai"`, **Admin** memicu fungsi `kirimNotifikasi()` yang secara otomatis mengirim pesan WhatsApp ke HP **Pelanggan**.
+    * **Pelanggan** datang membawa nota, **Admin** mengubah status akhir melalui `updateStatus("Diambil")` dan menyerahkan pakaian bersih ke pelanggan.
+
+* **PHASE 5: Pelaporan & Pemantauan Owner**
+    * **Owner** dapat mengakses sistem kapan saja dengan memanggil fungsi `ihatLaporan()` untuk melihat laporan pendapatan harian/bulanan secara *real-time*.
+    * **Owner** juga memiliki hak akses untuk memanggil fungsi `kelolaPromo()` pada objek **Layanan** guna mengatur diskon atau mengubah tarif dasar laundry.
 
 
 * **Activity Diagram:**
