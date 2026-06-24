@@ -197,7 +197,7 @@
 
    ![Diagram Use Case](Dokumentasi-Wawancara/Diagram-UseCase.jpg)
 
-
+   ![Diagram Activity](Dokumentasi-Wawancara/Diagram-Activity.png)
 
 #### PROBLEM DARI HASIL WAWANCARA:
 * Baju yang sudah selesai di laundry tidak diambil segera oleh pemiliknya yang membuat tempat Laundry penuh.
