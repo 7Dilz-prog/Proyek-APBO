@@ -200,9 +200,19 @@
 *  **Class Diagram:**<br>
  <img width="365" height="430" alt="image" src="https://github.com/user-attachments/assets/a61d41d2-a411-4adb-a1d0-ad57abbfe51f" />
 
-
 * **State Diagram:**
 <img width="1013" height="1351" alt="State_Diagram_Laundry" src="https://github.com/user-attachments/assets/a49079f7-9c8e-4efd-b643-829f4b6af195" />
+
+
+* #### Alurnya Meliputi:
+ 
+    * **Inisiasi:** Pesanan dibuat oleh Admin (*Order Created*) lalu masuk ke tahap menunggu pembayaran. Pelanggan bisa memilih untuk bayar di awal (Lunas) atau bayar saat pengambilan (Belum Lunas). Di fase ini pesanan juga bisa dibatalkan (*Cancelled*).
+    
+    * **Operasional (Proses Laundry):** Setelah divalidasi, pesanan masuk ke antrean lalu bergerak secara berurutan melewati status internal: *Sedang Dicuci → Sedang Dikeringkan → Sedang Disetrika → Packing*.
+    
+    * **Penyelesaian & Notifikasi:** Begitu berstatus *Selesai*, sistem langsung memicu fungsi untuk mengirimkan notifikasi otomatis (via WA/SMS/Aplikasi) ke pelanggan.
+    
+    * **Terminasi:** Pesanan menunggu diambil di toko. Jika pelanggan datang dan menunjukkan nota (serta melunasi tagihan jika belum lunas), status berubah menjadi *Diambil* dan siklus selesai. Jika lewat batas waktu (misal > 7 hari), status berubah menjadi *Expired* (Kedaluwarsa).
 
 * **Squence Diagram:**
     <img width="700" height="450" src="Dokumentasi-Wawancara/squence_diagram.jpg">
