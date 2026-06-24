@@ -202,8 +202,7 @@
 
 
 * **State Diagram:**
-<img width="1024" height="1536" alt="e9df7eb9-3421-48be-a3bb-dbe052b8aee5" src="https://github.com/user-attachments/assets/d0fa3627-0d30-4ad6-8b5b-7d6844792c26" />
-
+<img width="1013" height="1351" alt="State_Diagram_Laundry" src="https://github.com/user-attachments/assets/a49079f7-9c8e-4efd-b643-829f4b6af195" />
 
 * **Squence Diagram:**
     <img width="700" height="450" src="Dokumentasi-Wawancara/squence_diagram.jpg">
