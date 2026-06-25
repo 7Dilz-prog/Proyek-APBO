@@ -241,8 +241,7 @@
     * **Owner** dapat mengakses sistem kapan saja dengan memanggil fungsi `ihatLaporan()` untuk melihat laporan pendapatan harian/bulanan secara *real-time*.
     * **Owner** juga memiliki hak akses untuk memanggil fungsi `kelolaPromo()` pada objek **Layanan** guna mengatur diskon atau mengubah tarif dasar laundry.
 
-
-* **Activity Diagram:**
+   ![Diagram Activity](Dokumentasi-Wawancara/Diagram-Activity.png)
 
 #### PROBLEM DARI HASIL WAWANCARA
 * Baju yang sudah selesai di laundry tidak diambil segera oleh pemiliknya yang membuat tempat Laundry penuh.
