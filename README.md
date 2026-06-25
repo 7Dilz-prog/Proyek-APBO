@@ -193,10 +193,53 @@
     3. Mengatur hak akses aplikasi
     4. Mengatur Diskon / Promosi
 
-
-
-
+## Diagram
+* **Usecase Diagram:**
    ![Diagram Use Case](Dokumentasi-Wawancara/Diagram-UseCase.jpg)
+
+*  **Class Diagram:**<br>
+ <img width="365" height="430" alt="image" src="https://github.com/user-attachments/assets/a61d41d2-a411-4adb-a1d0-ad57abbfe51f" />
+
+* **State Diagram:**
+<img width="1013" height="1351" alt="State_Diagram_Laundry" src="https://github.com/user-attachments/assets/a49079f7-9c8e-4efd-b643-829f4b6af195" />
+
+
+* #### Alurnya Meliputi:
+ 
+    * **Inisiasi:** Pesanan dibuat oleh Admin (*Order Created*) lalu masuk ke tahap menunggu pembayaran. Pelanggan bisa memilih untuk bayar di awal (Lunas) atau bayar saat pengambilan (Belum Lunas). Di fase ini pesanan juga bisa dibatalkan (*Cancelled*).
+    
+    * **Operasional (Proses Laundry):** Setelah divalidasi, pesanan masuk ke antrean lalu bergerak secara berurutan melewati status internal: *Sedang Dicuci → Sedang Dikeringkan → Sedang Disetrika → Packing*.
+    
+    * **Penyelesaian & Notifikasi:** Begitu berstatus *Selesai*, sistem langsung memicu fungsi untuk mengirimkan notifikasi otomatis (via WA/SMS/Aplikasi) ke pelanggan.
+    
+    * **Terminasi:** Pesanan menunggu diambil di toko. Jika pelanggan datang dan menunjukkan nota (serta melunasi tagihan jika belum lunas), status berubah menjadi *Diambil* dan siklus selesai. Jika lewat batas waktu (misal > 7 hari), status berubah menjadi *Expired* (Kedaluwarsa).
+
+* **Squence Diagram:**
+    <img width="700" height="450" src="Dokumentasi-Wawancara/squence_diagram.jpg">
+    #### 🔄 Penjelasan Alur Per Fase:
+* **PHASE 1: Registrasi & Input Pesanan**
+    * **Pelanggan** datang membawa cucian dan memilih jenis layanan.
+    * **Admin** memicu fungsi `inputPesanan()` pada sistem untuk mencatat identitas, berat/qty, dan catatan kondisi pakaian (misal: pakaian mudah luntur).
+    * Sistem melalui kelas **Admin** melakukan cek tarif ke objek **Layanan** untuk mengambil data `harga_per_unit`.
+    * Objek **Pesanan** mengeksekusi fungsi `hitungTotal()` dan mengembalikan kalkulasi total harga ke **Admin** untuk diinfokan ke pelanggan.
+
+* **PHASE 2: Proses Pembayaran (Contoh: Bayar di Awal)**
+    * **Pelanggan** membayar sesuai tagihan (via Cash/QRIS/Transfer).
+    * **Admin** melakukan `validasiPembayaran()` di dalam sistem.
+    * Sistem mengubah parameter `status_bayar` pada objek **Pembayaran** menjadi Lunas (`L`) dan mengeksekusi fungsi `cetakKwitansi()`.
+    * **Admin** menyerahkan nota/kwitansi fisik kepada **Pelanggan**.
+
+* **PHASE 3: Proses Laundry & Update Status**
+    * Pakaian masuk ke antrian operasional pengerjaan (*Sorting* -> Cuci -> Setrika -> Packing).
+    * Secara berkala, **Admin** melakukan pembaruan data internal sistem melalui fungsi *self-message* `updateStatus()`, mulai dari `"Sedang Dicuci"`, `"Sedang Setrika"`, hingga `"Selesai"`.
+
+* **PHASE 4: Notifikasi & Pengambilan**
+    * Ketika status pesanan berubah menjadi `"Selesai"`, **Admin** memicu fungsi `kirimNotifikasi()` yang secara otomatis mengirim pesan WhatsApp ke HP **Pelanggan**.
+    * **Pelanggan** datang membawa nota, **Admin** mengubah status akhir melalui `updateStatus("Diambil")` dan menyerahkan pakaian bersih ke pelanggan.
+
+* **PHASE 5: Pelaporan & Pemantauan Owner**
+    * **Owner** dapat mengakses sistem kapan saja dengan memanggil fungsi `ihatLaporan()` untuk melihat laporan pendapatan harian/bulanan secara *real-time*.
+    * **Owner** juga memiliki hak akses untuk memanggil fungsi `kelolaPromo()` pada objek **Layanan** guna mengatur diskon atau mengubah tarif dasar laundry.
 
    ![Diagram Activity](Dokumentasi-Wawancara/Diagram-Activity.png)
 
