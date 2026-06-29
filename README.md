@@ -190,12 +190,12 @@ Konsumen mengambil baju yang telah dicuci berdasarkan notifikasi tadi. Pelanggan
 ## Diagram
 
 - **Usecase Diagram:**
-  ![Diagram Use Case](Dokumentasi-Wawancara/Diagram-useCase.jpg)
+  ![Diagram Use Case](Dokumentasi-Wawancara/Diagram-UseCase.jpg)
 
 - **Class Diagram:**
 
 - **State Diagram:**
-  <img width="1013" height="1351" alt="State_Diagram_Laundry" src="https://github.com/user-attachments/assets/a49079f7-9c8e-4efd-b643-829f4b6af195" />
+
 
 - **Squence Diagram:**
 
