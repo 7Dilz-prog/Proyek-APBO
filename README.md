@@ -193,6 +193,7 @@ Konsumen mengambil baju yang telah dicuci berdasarkan notifikasi tadi. Pelanggan
   ![Diagram Use Case](Dokumentasi-Wawancara/Diagram-UseCase.jpg)
 
 - **Class Diagram:**
+<img width="1317" height="1078" alt="Class Diagram APBO drawio" src="https://github.com/user-attachments/assets/53d42392-1654-4c09-bf20-10ce08ac95f7" />
 
 - **State Diagram:**
 
