@@ -193,7 +193,7 @@ Konsumen mengambil baju yang telah dicuci berdasarkan notifikasi tadi. Pelanggan
   ![Diagram Use Case](Dokumentasi-Wawancara/Diagram-UseCase.jpg)
 
 - **Class Diagram:**
-
+  ![Diagram Use Case](Dokumentasi-Wawancara/Diagram-Class.jpeg)
 - **State Diagram:**
 
 
