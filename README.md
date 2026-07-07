@@ -196,7 +196,8 @@ Konsumen mengambil baju yang telah dicuci berdasarkan notifikasi tadi. Pelanggan
   ![Diagram Class](Dokumentasi-Wawancara/DIagram-Class.jpeg).
 
 - **State Diagram:**
-  
+  <img width="979" height="996" alt="State Diagram" src="https://github.com/user-attachments/assets/68862e49-c580-40e2-9892-2b860113453f" />
+
   ![Diagram State](Dokumentasi-Wawancara/Diagram-State.png)
 
 - **Squence Diagram:**
