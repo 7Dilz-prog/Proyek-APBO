@@ -203,6 +203,7 @@ Konsumen mengambil baju yang telah dicuci berdasarkan notifikasi tadi. Pelanggan
   ![Sequence Diagram](Dokumentasi-Wawancara/sequence-diagram.png)
 
 - **Activity Diagram:**
+  ![Activity Diagram](Dokumentasi-Wawancara/Diagram-activity.png)
 
 #### PROBLEM DARI HASIL WAWANCARA
 
