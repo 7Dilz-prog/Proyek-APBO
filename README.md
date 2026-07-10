@@ -204,7 +204,11 @@ Konsumen mengambil baju yang telah dicuci berdasarkan notifikasi tadi. Pelanggan
   ![Sequence Diagram](Dokumentasi-Wawancara/sequence-diagram.png)
 
 - **Activity Diagram:**
-  ![Activity Diagram](Dokumentasi-Wawancara/Diagram-activity.png)
+  ![Activity Diagram](Dokumentasi-Wawancara/Diagram-Activity.png)
+
+- **Wireframe:**
+  https://www.figma.com/design/cljoOlIdcXyr1pGljbN9Dz/Untitled?node-id=0-1&t=Qx1f2c0Zm0Cpyd6v-1
+
 
 #### PROBLEM DARI HASIL WAWANCARA
 
