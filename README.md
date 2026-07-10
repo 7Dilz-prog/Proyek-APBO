@@ -158,6 +158,9 @@ Konsumen mengambil baju yang telah dicuci berdasarkan notifikasi tadi. Pelanggan
   https://youtu.be/4HeoocR1znk?si=NDgBW-qX23UdZzRE
 - PPT Presentasi
   https://canva.link/75tgi1r5b2dw2rf
+- Mockup:
+  https://www.figma.com/design/cljoOlIdcXyr1pGljbN9Dz/Untitled?node-id=0-1&t=Qx1f2c0Zm0Cpyd6v-1 
+
 
 #### AKTOR DALAM SISTEM
 
@@ -205,9 +208,6 @@ Konsumen mengambil baju yang telah dicuci berdasarkan notifikasi tadi. Pelanggan
 
 - **Activity Diagram:**
   ![Activity Diagram](Dokumentasi-Wawancara/Diagram-Activity.png)
-
-- **Mockup:**
-  https://www.figma.com/design/cljoOlIdcXyr1pGljbN9Dz/Untitled?node-id=0-1&t=Qx1f2c0Zm0Cpyd6v-1
 
 
 #### PROBLEM DARI HASIL WAWANCARA
