@@ -206,7 +206,7 @@ Konsumen mengambil baju yang telah dicuci berdasarkan notifikasi tadi. Pelanggan
 - **Activity Diagram:**
   ![Activity Diagram](Dokumentasi-Wawancara/Diagram-Activity.png)
 
-- **Wireframe:**
+- **Mockup:**
   https://www.figma.com/design/cljoOlIdcXyr1pGljbN9Dz/Untitled?node-id=0-1&t=Qx1f2c0Zm0Cpyd6v-1
 
 
