@@ -160,8 +160,9 @@ Konsumen mengambil baju yang telah dicuci berdasarkan notifikasi tadi. Pelanggan
   https://canva.link/75tgi1r5b2dw2rf
 - Mockup:
   https://www.figma.com/design/cljoOlIdcXyr1pGljbN9Dz/Untitled?node-id=0-1&t=Qx1f2c0Zm0Cpyd6v-1 
-
-
+- Youtube:
+  https://youtu.be/NQquyF_MiLE
+  
 #### AKTOR DALAM SISTEM
 
 👤 Pelanggan (Customer)
